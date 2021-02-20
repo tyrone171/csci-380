@@ -4,21 +4,13 @@ let count = 2;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
-console.log(btns)
-
-// for (let i = 0; i < btns.length; i++) {
-//   // btn.addEventListener()
-// }
-
-
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
     if (styles.contains("decrease")) {
-      count--;
+      count-=99;
     } else if (styles.contains("increase")) {
-      count *= 2;
-      // count = count * 2
+      count *= 3;
     } else {
       count = 0;
     }
