@@ -4,8 +4,8 @@ const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 //copy the array form index.js
 const companies = ["Uber", "Lyft", "Google", "Apple", "SpaceX", "Tinder"]
-const animals = ["Aardvark", "Blue Footed Booby", "Flying Dragon", "Giraffe Weevil", "Hammerhead Slug", "Komodo Dragon", "Naked Mole Rat", "Okapi", "Red Panda"]
-const vowels = ["A", "E", "I", "O", "U"]
+const pets = ["Aardvark", "Blue Footed Booby", "Flying Dragon", "Giraffe Weevil", "Hammerhead Slug", "Komodo Dragon", "Naked Mole Rat", "Okapi", "Red Panda"]
+const Letter = ["A", "E", "I", "O", "U"]
 
 //function for genral companies infor
 function addInfor(){
