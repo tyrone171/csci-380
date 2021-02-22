@@ -13,7 +13,7 @@ function addInfor(){
     const companyName = companies[Math.floor(Math.random() * companies.length)]
 
     const firstLetter = companyName.charAt(0)
-    const companyString = "My company is a" + ((vowels.indexOf(firstLetter) > -1) ? "n " : " ") + companyName + " for " + animals[Math.floor(Math.random() * animals.length)] + "s!<br />"
+    const companyString = "My business is a" + ((vowels.indexOf(firstLetter) > -1) ? "n " : " ") + companyName + " for " + animals[Math.floor(Math.random() * animals.length)] + "s!<br />"
     //add infor string to value <span>
     value.innerHTML += companyString
   }
